@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ca.ilanguage.fieldlinguist"
+    package="ca.ilanguage.fieldlinguistics"
     android:versionCode="1"
     android:versionName="1.0"
     android:installLocation="preferExternal" >
@@ -18,8 +18,8 @@
         android:label="@string/app_name" 
         android:installLocation="preferExternal">
         <activity
-            android:name="AndroidFieldLinguistActivity"
-            android:label="FieldLinguist"
+            android:name="ca.ilanguage.fieldlinguistics.AndroidFieldLinguisticsActivity"
+            android:label="FieldLinguistics"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
